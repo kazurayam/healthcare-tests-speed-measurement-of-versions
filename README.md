@@ -60,7 +60,7 @@ I ran the "Test Suites/healthcare-tests -TS_RegressionTest" at least 3 times for
 |8.6.9     | 76.216s = 1min 16.216s |
 |8.6.9     | 73.872s = 1min 13.872s |
 
-I found a clear gap between v9.7.6 and v10.0.0. Katalon Studio v10.0.0 runs slower than the previous version.
+I found a clear leap between v9.7.6 and v10.0.0. Katalon Studio v10.0.0 runs slower than the previous version.
 
 ### Comparing v9.7.6 and v10.0.0 in detail
 
@@ -74,7 +74,7 @@ With v9.7.6, the test suite took 69.830s. With v10.0.0, it took 85.285s.
 
 `69.830 : 85.285 = 1 : 1.23`
 
-How much significant this time difference 1.23 is?
+How much significant this time ratio 1.23 is?
 
 We should look at the time taken for each individual steps.
 
@@ -90,7 +90,7 @@ So I can calcurate how long v9.7.6 and v10.0.0 took while subtracting the time t
 
 The v9.7.6-v10.0.0 speed ratio now gets larger: 1.23 -> 1.375
 
-The [`Test Cases/Main Test Cases/TC1_Verify Successful Login`](https://github.com/katalon-studio-samples/healthcare-tests/blob/master/Scripts/Main%20Test%20Cases/TC1_Verify%20Successful%20Login/Script1482850539026.groovy) contains a single call to `WebUI.openBrowser()` and 5 times of calls to other action keywords (click, setText, verifyElementPresent). This test case script is a small one; not typical. Users would have much larger scripts with hundreds of call sot action keywords.
+The [`Test Cases/Main Test Cases/TC1_Verify Successful Login`](https://github.com/katalon-studio-samples/healthcare-tests/blob/master/Scripts/Main%20Test%20Cases/TC1_Verify%20Successful%20Login/Script1482850539026.groovy) contains a single call to `WebUI.openBrowser()` and 5 times of calls to other action keywords (click, setText, verifyElementPresent). This test case script is a small one; not typical. Users would have much larger scripts with hundreds of calls to action keywords.
 
 Please imagin that a Test Case contains a single call to `WebUI.openBrowser()` and 200 times if calls to other action keywords, then how will the speed ratio become?
 
