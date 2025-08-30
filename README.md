@@ -92,12 +92,12 @@ The v9.7.6-v10.0.0 speed ratio now gets larger: 1.23 -> 1.375
 
 The [`Test Cases/Main Test Cases/TC1_Verify Successful Login`](https://github.com/katalon-studio-samples/healthcare-tests/blob/master/Scripts/Main%20Test%20Cases/TC1_Verify%20Successful%20Login/Script1482850539026.groovy) contains a single call to `WebUI.openBrowser()` and 5 times of calls to other action keywords (click, setText, verifyElementPresent). This test case script is a small one; not typical. Users would have much larger scripts with hundreds of calls to action keywords.
 
-Please imagin that a Test Case contains a single call to `WebUI.openBrowser()` and 200 times of calls to other action keywords, then how will the speed ratio become? I belive, the ration will become larger. E.g, 2.00. This suggests, **Katalon Studio v10 runs slower than v9 and may take twice as long to process.**.
+Please imagin that a Test Case contains a single call to `WebUI.openBrowser()` and 200 times of calls to other action keywords, then how will the speed ratio become? I belive, the ration will become larger. E.g, 2.00. This means, **Katalon Studio v10 runs slower than v9 and may take twice as long to process.**.
 
 
 ## Conclusion
 
-This suggests, **Katalon Studio v10 runs slower than v9.**. But I haven't studied the reason of the speed difference yet.
+Katalon Studio v10 runs slower than v9. But I haven't studied the reason of the speed difference yet.
 
 
 
