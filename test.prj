@@ -6,6 +6,8 @@
    <UUID>01e0eca3-73b6-47e3-a959-e11eb5108e63</UUID>
    <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>10.0.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>/Users/kazuakiurayama/katalon-workspace/healthcare-tests-speed-measurement-of-versions/test.prj</projectFileLocation>
    <sourceContent>
