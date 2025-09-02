@@ -12,12 +12,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
-void setTextJS(By locator, String text) {
+void setTextAlt(TestObject tObj, String text) {
+	By locator = TestObjectExtension.toBy(tObj)
 	println "locator:${locator}"
 	println "text:${text}"
 	WebDriver driver = DriverFactory.getWebDriver()
 	WebElement webElement = driver.findElement(locator)
-	((JavascriptExecutor)driver).executeScript('arguments[0].innerHTML = arguments[1];', [webElement, text])
+	println "webElement.getDomAttribute('contenteditable'):" + webElement.getDomAttribute("contenteditable")
+	if (driver instanceof JavascriptExecutor) {
+		((JavascriptExecutor)driver).executeScript('arguments[0].innerHTML = arguments[1];', webElement, text)
+	} else {
+		throw new IllegalStateException("not JavascriptExecutor")
+	}
 }
 
 WebUI.comment('Story: Login to CURA system')
@@ -31,11 +37,13 @@ WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 //WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
 
 TestObject tObj = findTestObject('Page_Login/txt_UserName')
-setTextJS(TestObjectExtension.toBy(tObj), Username)
+WebUI.waitForElementVisible(tObj, 10)
+setTextAlt(tObj, Username)
 
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
-WebUI.delay(3)
+WebUI.delay(1)
+
 WebUI.comment('When he logins to CURA system')
 
 WebUI.click(findTestObject('Page_Login/btn_Login'))
