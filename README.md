@@ -107,6 +107,14 @@ Katalon Studio v10 runs slower than v9. But I haven't studied the reason of the 
 
 ## Experiement once more
 
+At the end of Aug 2025, I wrote a report ["Katalon Studio v10.0.0 runs slower than v9.7.6"](https://forum.katalon.com/t/katalon-studio-v10-0-0-runs-slower-than-v9-7-6-a-measurement-report/181372). After that, I got more questions:
+
+1. [@petr.brezina suggested](https://forum.katalon.com/t/katalon-studio-v10-0-0-runs-slower-than-v9-7-6-a-measurement-report/181372/11) that Katalon Studio v10.3.1 runs slower on Windows than Mac. Is it a fact?
+2. The Smart Wait feature --- how is it influencive to the processing time?
+
+So I carried out one more time of performance examination of Katalon Studio versions. Let me report the result.
+
+I used my Windows 11 laptop with 16GB memory. An ordinary consumer model, nothing special. I used my Mac Book Air as I used for my previous report.
 
 |Version|Mac,Enabled    |Mac,Disabled    |Windows,Enabled |Windows,Disabled|
 |-------|---------------|----------------|----------------|----------------|
@@ -134,6 +142,12 @@ Katalon Studio v10 runs slower than v9. But I haven't studied the reason of the 
 |9.0.0  |<span style="color:gray;">72.187s</span>|
 |9.0.0  |<span style="color:gray;">73.694s</span>|
 
-The result was suprising.
+The result was suprising to me.
 
-1. 
+1. The latest Katalon Studio v10.3.1 runs twice or three times slower on Windows than on Mac.
+
+2. I wrote that v10.0.0 runs slower than v9.7.6. But I was not correct. The speed difference between v10.0.0 and v9.7.6 is not so significant. The newer versions sinice v10.0.1 runs far slower.
+
+3. Clearly v10.0.1 got slower than v10.0.0. I infer there must be a change in v10.0.1 that caused the performance issue.
+
+
