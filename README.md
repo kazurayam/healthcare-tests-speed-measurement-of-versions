@@ -107,7 +107,7 @@ Katalon Studio v10 runs slower than v9. But I haven't studied the reason of the 
 
 ## Experiement once more
 
-I did more experiments
+
 |Version|Mac,Enabled    |Mac,Disabled    |Windows,Enabled |Windows,Disabled|
 |-------|---------------|----------------|----------------|----------------|
 |10.3.1 |90.513s   |75.3s      |303.127s       |245.666s       |
@@ -121,11 +121,9 @@ I did more experiments
 |10.2.4 |<span style="color:gray;">84.740s</span>|
 |10.1.0 |140.429s |103.269s |286.798s |204.320s |
 |10.1.0 |262.338s |96.156s  |198.859s |190.299s |
-|10.1.0 |280.825s |97.176s |196.653s |181.907s |
-|10.0.1 |93.490s |70.772s ||220.112s |
-|10.0.1 |91.688s |75.884s ||182.832s |
-|10.0.1 |115.054s |75.266s ||171.646|
-|^^^^^^||||^^^^^^|
+|10.0.1 |93.490s  |70.772s |215.824s |220.112s |
+|10.0.1 |91.688s  |75.884s |259.310s |182.832s |
+|10.0.1 |115.054s |75.266s |236.365s  |171.646|
 |10.0.0 |<span style="color:gray;">84.270s</span> |69.879s |71.553s |50.526s |
 |10.0.0 |<span style="color:gray;">84.270s</span> |122.530s |68.438s |55.171s |
 |10.0.0 |<span style="color:gray;">85.543s</span> |131.014s |69.725s |52.215s |
@@ -135,3 +133,7 @@ I did more experiments
 |9.0.0  |<span style="color:gray;">75.949s</span>|
 |9.0.0  |<span style="color:gray;">72.187s</span>|
 |9.0.0  |<span style="color:gray;">73.694s</span>|
+
+The result was suprising.
+
+1. 
