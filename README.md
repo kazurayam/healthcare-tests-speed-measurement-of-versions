@@ -153,3 +153,5 @@ The result was suprising to me.
 4. SmartWait seems to affect the turnaround time of the test. However, I don't see a straightforward rule about whether the test will be faster or slower.
 
 I would recommend youto switch from Windows to Mac to run Katalon Studio tests.
+
+Perhaps, Katalon developers work on Mac, not on Windows. So they don't know the fact.
