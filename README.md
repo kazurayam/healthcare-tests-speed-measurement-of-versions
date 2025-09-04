@@ -110,30 +110,29 @@ Katalon Studio v10 runs slower than v9. But I haven't studied the reason of the 
 I did more experiments
 |Version|Mac,Enabled    |Mac,Disabled    |Windows,Enabled |Windows,Disabled|
 |-------|---------------|----------------|----------------|----------------|
-|10.3.1 |1min 30.513s   |1min 15.3s      |5m 3.127s       |4m 5.666s       |
-|10.3.1 |<span style="color:gray;">1min 21s</span>|<span style="color:gray;">グレイ</span>|3m 35.290s |3m 15.372s |
-|10.3.1 |<span style="color:gray;">1min 24s</span>||3m 51.69s  |4m 49.160s |
-|10.3.0 |<span style="color:gray;">1min 27s</span>|
-|10.3.0 |<span style="color:gray;">1min 26s</span>|
-|10.3.0 |<span style="color:gray;">1min 32s</span>|
-|10.2.4 |<span style="color:gray;">85.948s = 1min 25.948s</span>|
-|10.2.4 |<span style="color:gray;">89.028s = 1min 29.028s</span>|
-|10.2.4 |<span style="color:gray;">84.740s = 1min 24.740s</span>|
+|10.3.1 |90.513s   |75.3s      |303.127s       |245.666s       |
+|10.3.1 |<span style="color:gray;">81s</span>||215.290s |195.372s |
+|10.3.1 |<span style="color:gray;">84s</span>||231.69s  |289.160s |
+|10.3.0 |<span style="color:gray;">87s</span>|
+|10.3.0 |<span style="color:gray;">86s</span>|
+|10.3.0 |<span style="color:gray;">92s</span>|
+|10.2.4 |<span style="color:gray;">85.948s</span>|
+|10.2.4 |<span style="color:gray;">89.028s</span>|
+|10.2.4 |<span style="color:gray;">84.740s</span>|
 |10.2.0 |||||
 |10.2.0 |||||
-|10.2.0 |||||
-|10.1.0 |||||
-|10.1.0 |||||
-|10.1.0 |||||
-|10.0.1 |||||
-|10.0.1 |||||
-|10.0.0 |<span style="color:gray;">84.270s = 1min 24.270s</span> ||71.553s |50.526s |
-|10.0.0 |<span style="color:gray;">84.270s = 1min 24.270s</span> ||68.438s |55.171s |
-|10.0.0 |<span style="color:gray;">85.543s = 1min 25.534s</span> ||69.725s |52.215s |
+|10.1.0 |||286.798s |204.320s |
+|10.1.0 |||198.859s |190.299s |
+|10.1.0 |||196.653s |181.907s |
+|10.0.1 ||||220.112s |
+|10.0.1 ||||182.832s |
+|10.0.1 ||||171.646|
+|10.0.0 |<span style="color:gray;">84.270s</span> ||71.553s |50.526s |
+|10.0.0 |<span style="color:gray;">84.270s</span> ||68.438s |55.171s |
+|10.0.0 |<span style="color:gray;">85.543s</span> ||69.725s |52.215s |
 
-|9.7.6  |<span style="color:gray;">72.118s = 1min 12.118s</span>||57.579s |54.850s |
-|9.7.6  |<span style="color:gray;">71.211s = 1min 11.211s</span>||101.449s |53.440s |
-|9.7.6  |<span style="color:gray;">69.830s = 1min 09.830s</span>||55.282s |50.213s 
-|9.0.0  |<span style="color:gray;">75.949s = 1min 15.949s</span> |
-|9.0.0  |<span style="color:gray;">72.187s = 1min 12.187s</span> |
-|9.0.0  |<span style="color:gray;">73.694s = 1min 13.794s</span> |
+|9.7.6  |<span style="color:gray;">72.118s</span>||57.579s |54.850s |
+|9.7.6  |<span style="color:gray;">69.830s</span>||55.282s |50.213s 
+|9.0.0  |<span style="color:gray;">75.949s</span>|
+|9.0.0  |<span style="color:gray;">72.187s</span>|
+|9.0.0  |<span style="color:gray;">73.694s</span>|
