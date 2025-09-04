@@ -150,4 +150,6 @@ The result was suprising to me.
 
 3. Clearly v10.0.1 got slower than v10.0.0. I infer there must be a change in v10.0.1 that caused the performance issue.
 
+4. SmartWait seems to affect the turnaround time of the test. However, I don't see a straightforward rule about whether the test will be faster or slower.
 
+I would recommend youto switch from Windows to Mac to run Katalon Studio tests.
