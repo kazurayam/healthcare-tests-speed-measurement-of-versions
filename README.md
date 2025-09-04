@@ -124,15 +124,15 @@ I did more experiments
 |10.1.0 |||286.798s |204.320s |
 |10.1.0 |||198.859s |190.299s |
 |10.1.0 |||196.653s |181.907s |
-|10.0.1 ||||220.112s |
-|10.0.1 ||||182.832s |
-|10.0.1 ||||171.646|
+|10.0.1 |93.490s |70.772s ||220.112s |
+|10.0.1 |91.688s |75.884s ||182.832s |
+|10.0.1 |115.054s |75.266s ||171.646|
+|^^^^^^|||^^^^^^|^^^^^^|
 |10.0.0 |<span style="color:gray;">84.270s</span> ||71.553s |50.526s |
 |10.0.0 |<span style="color:gray;">84.270s</span> ||68.438s |55.171s |
 |10.0.0 |<span style="color:gray;">85.543s</span> ||69.725s |52.215s |
-
 |9.7.6  |<span style="color:gray;">72.118s</span>||57.579s |54.850s |
-|9.7.6  |<span style="color:gray;">69.830s</span>||55.282s |50.213s 
+|9.7.6  |<span style="color:gray;">69.830s</span>||55.282s |50.213s |
 |9.0.0  |<span style="color:gray;">75.949s</span>|
 |9.0.0  |<span style="color:gray;">72.187s</span>|
 |9.0.0  |<span style="color:gray;">73.694s</span>|
