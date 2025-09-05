@@ -155,3 +155,18 @@ The result was suprising to me.
 I would recommend youto switch from Windows to Mac to run Katalon Studio tests.
 
 Perhaps, Katalon developers work on Mac, not on Windows. So they don't know the fact.
+
+### Looking into the steps
+
+Let me look into the test steps:
+
+- v10.3.1 Mac
+![10.3.1_Mac](https://kazurayam.github.io/healthcare-tests-speed-measurement-of-versions/images/10.3.1_Mac.png)
+
+
+- v10.3.1 Windows
+![10.3.1_Windows](https://kazurayam.github.io/healthcare-tests-speed-measurement-of-versions/images/10.3.1_Windows.png)
+
+The step of `WebUI.openBrowser(G_SiteURL)` performed differently. It took 12.2 seconds on Mac, 40.4 seconds on Windows.
+
+Is my Windwos laptop is connected to the network with a poor WiFi device which performed slowly? Or, Katalon Studio worked slowly on Windows for `WebUI.openBrowser`? I have no clear idea at the moment.
