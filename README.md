@@ -170,3 +170,14 @@ Let me look into the test steps:
 The step of `WebUI.openBrowser(G_SiteURL)` performed differently. It took 12.2 seconds on Mac, 40.4 seconds on Windows.
 
 Is my Windwos laptop is connected to the network with a poor WiFi device which performed slowly? Or, Katalon Studio worked slowly on Windows for `WebUI.openBrowser`? I have no clear idea at the moment.
+
+Chrome 139.0.7258.155
+Firefox 142.0.1
+Edge 139.0.3405.125
+
+|KS Version|Mac,Chrome|Mac,Firefox|Mac,Edge |Windows,Chrome|Windows,Firefox|Windows,Edge|
+|10.3.1    |75.561s   |81.658s    | 91.776s |
+|10.3.1    |72.549s   |82.431s    | 90.863s |
+|10.3.1    |75.27s    |96.900s    | 177.90s |
+
+
